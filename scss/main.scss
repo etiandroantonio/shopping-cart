@@ -1,0 +1,21 @@
+@import 'config' ;
+@import 'navbar' ;
+@import 'table';
+
+.container{
+    margin:20px auto;
+    .col-md-, .col-lg-4{
+        margin-bottom: 20px;
+        .card-body{
+          line-height: 5;
+          h3{
+              font-weight: 400;
+              margin-bottom: 30px;
+          }
+          a{
+              color: white;
+          }
+     }
+    }
+}
+

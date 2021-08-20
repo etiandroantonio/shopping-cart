@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart copy</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.19/dist/css/uikit.min.css" />-->
+    <link rel="stylesheet" href="./css/uikit-rtl.min.css"/>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <h2>shoprite store</h2>
+            <i class="fas fa-cart-arrow-down"></i>
+        </div>
+    </div>
+    <div class="main container ">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 ">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/choccolate_cake.jpg" class="card-img-top" alt="choccolate_cake">
+                    <div class="card-body">
+                        <h3 class="card-title">chocolate Cake</h3>
+                        <h4 class="card-text">$100</h4>
+                        <a  class="btn btn-primary">adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/hamburger.jpg" class="card-img-top" alt="hamburger">
+                    <div class="card-body">
+                        <h3 class="card-title">Humburger</h3>
+                        <h4 class="card-text">$50</h4>
+                        <a class="btn btn-primary">adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/pink_shoe.jpg" class="card-img-top" alt="pink_shoe">
+                    <div class="card-body">
+                        <h3 class="card-title">pink shoe</h3>
+                        <h4 class="card-text">$50</h4>
+                        <a class="btn btn-primary">adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/shirt.jpg" class="card-img-top" alt="T' Shirt">
+                    <div class="card-body">
+                        <h3 class="card-title">T'Shirt</h3>
+                        <h4 class="card-text">$30</h4>
+                        <a  class="btn btn-primary">adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/strawberry_cake.jpg" class="card-img-top" alt="Strawberry Cake">
+                    <div class="card-body">
+                        <h3 class="card-title">Strawberry Cake</h3>
+                        <h4 class="card-text">$100</h4>
+                        <a  class="btn btn-primary">adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/green_shoe.jpg" class="card-img-top" alt="green_shoe">
+                    <div class="card-body">
+                        <h3 class="card-title">Green Shoe</h3>
+                        <h4 class="card-text">$90</h4>
+                        <a  class="btn btn-primary">adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="uk-overflow-auto container" style = 'width: 70%;'>
+        <table class="uk-table uk-table-hover uk-table-middle uk-table-divider">
+            <thead>
+                <tr>
+                    <th class="uk-table-shrink"></th>
+                    <th class="uk-table-small  sty"><h3>ITEM</h3></th>
+                    <th class="uk-table-small"></th>
+                    <th class="uk-width-small sty"><h3>PREÇO</h3></th>
+                    <th class="uk-table-shrink uk-text-small sty"><h3>QUANTIDADE</h3></th>
+                    <th class="uk-table-shrink uk-text-small sty"><h3>TOTAL</h3></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <!--<tr>
+                    <td><input type="checkbox" class="uk-checkbox"></td>
+                    <td><img class="uk-preserve-width uk-border-circle phono-product" src="img/strawberry_cake.jpg" width="40" alt=""></td>
+                    <td class="uk-table-link">
+                        <h3 
+                        class = "item-name">Strawberry Cake</h3>
+                    </td>
+                    <td class="uk-text-truncate item-price"><h3>$100</h3></td>
+                    <td><input type = 'number' class = 'num' value = '1'></td>
+                    <td class="uk-text-truncate total-price"><h3>$100</h3></td>
+                    <td><button class="uk-button uk-button-danger" type="button">Remove</button></td>
+                </tr>-->
+            </tbody>
+            <tr>
+                <td><input class="uk-checkbox" type="checkbox"></td>
+                <td><img class="uk-preserve-width uk-border-circle"  width="40" alt=""></td>
+                <td class="uk-table-link">
+                    <h3 class = "item-name"><strong>Grand-Total</strong></h3>
+                </td>
+                <td class="uk-text-truncate"><h3></h3></td>
+                <td class="uk-text-truncate"><h3></h3></td>
+                <td class="uk-text-truncate grand-total"><h3><strong>$0</strong></h3></td>
+                
+            </tr>
+
+        </table>
+    </div>
+
+
+
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
